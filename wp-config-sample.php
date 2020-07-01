@@ -20,19 +20,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'portfolio' );
+define( 'DB_NAME', 'database_name_here' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'username_here' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'password_here' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost:3308' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_CHARSET', 'utf8' );
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '[C f4e?F+R6b=.(25(87:Wc0K/X=;}/d3hkDd+yk.wpPf}v=wziQdCykai%+k;|7' );
-define( 'SECURE_AUTH_KEY',  '&6)/`.Z;w,>Ko7fL,uFADFr>3IMy:MD@PrX/X5NhHVaH=,-sPW)0>P;OUeb$txgK' );
-define( 'LOGGED_IN_KEY',    't!CNd)0hGn(KRJ]qECUokE6YA6XJNg:rZ0?r!ZD@lx6jwpo:L Vr3c%Ll&yFmy C' );
-define( 'NONCE_KEY',        'D|C0wu[k}pJ=~kva/uVu-`l1rym0zA913`zX~?F),{nINFnvC=PcN+~3!I%X]t~e' );
-define( 'AUTH_SALT',        'e{+8`@5o7&J.OVkFNSZd!wt]s#KkLMjm&3}#fedAISN[# _:{R[R0KcWHFsyApmT' );
-define( 'SECURE_AUTH_SALT', 'GUpz94V-RG1G J `3$[A5V&I$/p~!rBA6wt:cmk0,<dt-U@(A%XSHUZ#b<]a<Y/o' );
-define( 'LOGGED_IN_SALT',   'r>5/7F~bVW#9As$oRt1x{nEJyP>Fz<ro@@UyfOHoJix ^DO/d%r3>Mp50|HG;6m$' );
-define( 'NONCE_SALT',       '0j2;zETzzfTeGk+p2nx1Jx;8CP<0o($r3RGW}_x.n|4y%F}fdTA5mwp5f;p:O):]' );
+define( 'AUTH_KEY',         'put your unique phrase here' );
+define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
+define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
+define( 'NONCE_KEY',        'put your unique phrase here' );
+define( 'AUTH_SALT',        'put your unique phrase here' );
+define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
+define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
+define( 'NONCE_SALT',       'put your unique phrase here' );
 
 /**#@-*/
 
